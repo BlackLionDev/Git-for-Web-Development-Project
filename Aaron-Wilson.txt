@@ -1,0 +1,195 @@
+Aaron Wilson
+Lambda School - WBPT13
+Saturday, November 2, 2019
+
+Git for Web Development Project
+
+User Interface I: Project - https://codepen.io/Parry-Hotter/pen/LYYedjz?editors=1100
+
+Review Questions:
+
+    1. What is Semantic HTML?
+
+	Answer: Semantic HTML is markup with a semantic meaning; such as <section> which 	literally is a section of a webpage.
+
+    2. What is HTML used for?
+
+ 	Answer: HTML is used to markup a website
+
+    3. What is an attribute and where do we put it?
+	
+	Answer: Attributes provide additional information about HTML elements.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	
+	Answer: the H1 tag is the largest of the heading tags; ideally it should only be 	used once for search engine optimization.
+
+    5. Name two tags that have required attributes
+	
+	Answer: <a> and <img>
+
+    6. What do we put in the head of our HTML document?
+	
+	Answer: there should be a <header> tag, <h1> tag, and possibly a <nav> tag.
+ 
+    7. What is an id?
+
+	Answer: an ID is a type of selector that is more specific than a class, element, 	or universal selector.
+
+    8. What elements can I add an id to?
+
+	Answer: any element
+
+    9. How many times can I use the same id on a page? 
+
+	Answer: once
+
+    10. What is a class? 
+
+	Answer: a class is a type of selector that can be used on multiple elements
+
+    11. What elements can I add a class to? 
+
+	Answer: any
+
+    12. How many times can I use the same class on a page? 
+	
+	Answer: unlimited
+
+    13. How do I get my link to open in a new tab?
+
+	Answer: add target="_blank"
+
+    14. What is the alt attribute used for? 
+
+	Answer: to add text if the image does not load
+
+    15. How do I reference an id?
+
+	Answer: use the "#" sign
+
+    16. What is the difference between a section and a div
+
+	Answer: <section> is semantic but they are functionally similar
+
+    17. What is CSS used for? 
+
+	Answer: CSS is used to style markup
+
+    18. How to we select an element? Example - every h2 on the page
+	
+	Answer: h2 { color: red; }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+	Answer: a class can be used multiple times, but an ID is for a specific HTML 		attribute. You would use a class to style multiple <div>'s or <section>'s but an 	ID for one specific part of the website that you want to format. Example: I would 	use a class to style the main portion of the website, but then I would use and ID 	to target a specific element for more specificity.
+
+    20. How do we select classes in CSS?
+
+	Answer: .className
+
+    21. How do we select a p element with a single class of “human””?
+
+	Answer: .human p
+
+    22. What is a parent child selector? When would this be useful?
+
+	Answer: a parent child selector uses the > character to notate the relationship 	between a parent and child element in CSS, it is helpful to style a <span> in a 	particular <p> tag, for example.
+
+    23. How do you select all links within a div with the class of sidebar?
+	
+	Answer: .sidebar div > a
+
+    24. What is a pseudo selector?
+
+	Answer: a pseudo selector specifies the state of selector like :hover
+
+    25. What do we use the change the spacing between lines?
+
+	Answer: line-height attribute
+
+    26. What do we use to change the spacing between letters?
+
+	Answer: letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+	Answer: text-transform
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+	Answer: border: 1px dotted black;
+
+    29. How do I select everything on the page?
+
+	Answer: universal selector *
+
+    30. How do I write a comment in CSS?
+
+	Answer: /* */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+	Answer: ls
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+	Answer: pwd or print working directory
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+	Answer: rm command; you have to be careful because it cannot be undone
+
+    34. Why should I use version control?
+
+	Answer: you should use version control to track changes so that you can recall 		specific versions later.
+
+    35. How often should I commit to github?
+
+	Answer: as often as possible
+
+    36. What is the command we would use to push our repo up to github? 
+
+	Answer: git push
+
+    37. Walk me through Lambda's git flow. 
+
+	Answer:
+
+	Step 1: Fork it
+	Step 2: Add PM
+	Step 3: Clone it (git clone *repo link*)
+	Step 4: Create a new branch (git checkout -b Aaron-Wilson)
+	Step 5: Code
+	Step 6: Add > Commit > Push (git push origin branch-name)
+	Step 7: Compare & Pull Request
+	Step 7a: Choose forked repo as base repo
+	Step 8: Add PM as reviewer
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+
+	Answer: Compared to display: inline, the major difference is that inline-block 		allows to set a width and height on the element. Also, with display: inline, top 	and bottom margins & paddings are not respected, and with display: inline-block 	they are.
+
+    2. What happens when an element is positioned absolutely?
+
+	Answer: absolutely positioned elements are taken out of the flow and positioned 	relative to its nearest positioned ancestor (that is not static).
+ 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+	Answer: this can be accomplished with CSS Flex
+
+	
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+	Answer: <p> <div> and <nav> are all block. <a> <img> <span> are all inline. <img> 	is also inline-block.
+
+    5. In your own words, explain the box model. What is the fix for the box model?
+
+	Answer: The box model is a concept in HTML/CSS that essentially holds that every 	element in a page is a box that consists of content, height, width, padding, and 	margin. Each of these elements can be manipulated with CSS.
+
+
+
+   --> 
+
+
